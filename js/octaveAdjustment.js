@@ -6,7 +6,7 @@ function msg_int(num){
 		//octaves.push(64); //the format nslider expects is note velocity pairs. Therefore, we add a velocity of 64 after each note.
 	}
 	const validOctaves = octaves.filter(function(pitch){
-		return (pitch >= 43 && pitch <= 82);
+		return (pitch >= 43 && pitch <= 84);
 	})	
 	outlet(0, validOctaves);
 }
